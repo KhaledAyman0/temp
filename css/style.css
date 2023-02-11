@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background-image: url(../imag/pexels-sergei-a-2589456.jpg);
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;}
+.cl{
+    position: relative;
+}
+.mms{
+    width: 250px;
+    height: 200px;
+    background-color: rgba(255, 232, 140, 0.536);
+    border-radius: 50px;
+    float: left;
+    right: 10PX;
+    position: absolute;
+    animation-name: chien;
+    animation-duration: 7s ;  
+    animation-delay: 1S;
+    animation-fill-mode: forwards;
+    
+}
+.clear{
+    clear: both;
+}
+@keyframes chien {
+    0% { background-color: rgba(255, 224, 171, 0.621);  right: 0; }
+    100% { background-color: rgba(194, 156, 128, 0.603);  right: 1265px;   }
+}
+
+.mms:hover {
+    animation-play-state: paused ;
+
+}
+
+.mms1{
+    width: 250px;
+    height: 200px;
+    background-color: rgba(202, 196, 84, 0.642);
+    border-radius: 50px;
+    float: left;
+    top: 300PX;
+    position: absolute;
+    animation-name: chin;
+    animation-duration: 7s ;  
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+}
+.clear{
+    clear: both;
+}
+
+@keyframes chin {
+    0% { background-color: rgba(255, 224, 171, 0.621);  left: 0; }
+ 
+    100% { background-color: rgba(194, 156, 128, 0.603);  left: 1265px;    }
+}
+
+.mms1:hover {
+    animation-play-state: paused ;
+
+}
+
+.mmss{
+    width: 250px;
+    height: 200px;
+    background-color: rgba(245, 249, 176, 0.633);
+    border-radius: 50px;
+    float: left;
+    top: 550PX;
+    right: 10PX;
+    position: absolute;
+    animation-name: chi;
+    animation-duration: 7s ;  
+    animation-fill-mode: forwards;
+    animation-delay: 8s;
+}
+.clear{
+    clear: both;
+}
+
+@keyframes chi {
+    0% { background-color: rgba(194, 156, 128, 0.603);  right: 0; }
+
+ 
+    100% { background-color: rgba(255, 224, 171, 0.621);  right: 1265px;    }
+}
+
+.mmss:hover {
+    animation-play-state: paused ;
+
+}
+
+.mmss1{
+    width: 250px;
+    height: 200px;
+    background-color: rgba(253, 244, 164, 0.634);
+    border-radius: 50px;
+    float: left;
+    top: 800PX;
+    position: absolute;
+    animation-name: ch;
+    animation-duration: 7s ;  
+    animation-fill-mode: forwards;
+    animation-delay: 12s;
+}
+.clear{
+    clear: both;
+}
+
+@keyframes ch {
+    0% { background-color: rgba(194, 156, 128, 0.603);  left: 0; }
+
+ 
+    100% { background-color: rgba(255, 224, 171, 0.621);  left: 1265px;    }
+}
+
+.mmss1:hover {
+    animation-play-state: paused ;
+
+}
+
+.mmsss{
+    width: 250px;
+    height: 200px;
+    background-color: rgba(249, 234, 121, 0.571);
+    border-radius: 50px;
+    float: left;
+    top: 1050PX;
+    animation-name: cha;
+    position: absolute;
+    right: 10PX;
+    animation-duration: 6s ;  
+    animation-fill-mode: forwards;
+    animation-delay: 16s;
+}
+.clear{
+    clear: both;
+}
+
+@keyframes cha {
+    0% { background-color: rgba(255, 224, 171, 0.621);  right: 0; }
+
+ 
+    100% { background-color: rgba(194, 156, 128, 0.603);  right: 1265px;    }
+}
+
+.mmsss:hover {
+    animation-play-state: paused ;
+
+}
+
+.mmsss1{
+    width: 250px;
+    height: 200px;
+    background-color: rgba(248, 253, 155, 0.571);
+    border-radius: 50px;
+    float: left;
+    top: 1300PX;
+    position: absolute;
+    animation-name: chang;
+    animation-duration: 6s ;  
+    animation-fill-mode: forwards;
+    animation-delay: 20s;
+}
+.clear{
+    clear: both;
+}
+
+@keyframes chang {
+    0% { background-color: rgba(255, 224, 171, 0.621);  left: 0; }
+
+ 
+    100% { background-color: rgba(194, 156, 128, 0.603);  left: 1265px;    }
+}
+
+.mmsss1:hover {
+    animation-play-state: paused ;
+
+}
+
+
